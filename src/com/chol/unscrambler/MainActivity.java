@@ -81,7 +81,7 @@ public class MainActivity extends Activity {
 		switch(keyCode){
 		case KeyEvent.KEYCODE_BACK:
 		{
-		   searchThread.
+		   
 			Intent intent = new Intent(MainActivity.this, MainActivity.class);
 			startActivity(intent);
 		}
